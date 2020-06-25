@@ -1,0 +1,16 @@
+.PreviewCollection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 28px;
+      margin-bottom: 25px;
+    }
+
+    &__preview{
+        display: flex;
+        justify-content: space-between;
+    }
+}
